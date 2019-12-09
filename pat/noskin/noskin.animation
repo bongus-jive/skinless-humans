@@ -1,0 +1,78 @@
+{
+	"particleEmitters": {
+		"blood": {
+			"active": false,
+			"emissionRate": 50,
+			"offsetRegion": [0.375, 0.375, -0.375, -0.75],
+			"particles": [
+				{
+					"particle": {
+						"type" : "ember",
+						"size" : 1.5,
+						"color" : [150, 0, 0, 255],
+						"fade" : 0.5,
+						"initialVelocity" : [0, 2],
+						"finalVelocity" : [0, -25],
+						"approach" : [1, 14],
+						"timeToLive" : 1,
+						"collidesForeground" : true,
+						"destructionTime" : 40,
+						"layer" : "front",
+						"variance" : {
+							"color" : [200, 0, 0, 225],
+							"initialVelocity" : [1, 3],
+							"timeToLive" : 10
+						}
+					}
+				},
+				{
+					"particle": {
+						"type" : "ember",
+						"size" : 1.5,
+						"color" : [150, 0, 0, 255],
+						"fade" : 0.5,
+						"initialVelocity" : [0, 2],
+						"finalVelocity" : [0, -25],
+						"approach" : [1, 14],
+						"timeToLive" : 1,
+						"collidesForeground" : true,
+						"destructionTime" : 40,
+						"layer" : "front",
+						"variance" : {
+							"color" : [200, 0, 0, 225],
+							"initialVelocity" : [1, 3],
+							"timeToLive" : 10
+						}
+					}
+				},
+				{
+					"particle": {
+						"type" : "ember",
+						"size" : 1.5,
+						"color" : [150, 0, 0, 255],
+						"fade" : 0.5,
+						"initialVelocity" : [0, 2],
+						"finalVelocity" : [0, -25],
+						"approach" : [1, 14],
+						"timeToLive" : 1,
+						"collidesForeground" : true,
+						"destructionTime" : 40,
+						"layer" : "front",
+						"variance" : {
+							"color" : [200, 0, 0, 225],
+							"initialVelocity" : [1, 3],
+							"timeToLive" : 10
+						}
+					}
+				}
+			]
+		}
+	},
+	
+	"sounds" : {
+		"agony" : [
+			"/sfx/npc/boss/tentacleboss_tentacle_loop.ogg",
+			"/sfx/npc/boss/tentacleboss_tentacle_burst.ogg"
+		]
+	}
+}
