@@ -1,0 +1,4 @@
+[
+  { "op": "replace", "path": "/frameList/normal", "value": [ 0, 43, 1, 44 ] },
+  { "op": "replace", "path": "/frameList/climb", "value": [ 0, 43, 1, 44 ] }
+]
