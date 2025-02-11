@@ -5,6 +5,7 @@
   "scripts": [ "noskin.lua" ],
   "scriptDelta": 1,
   "effectConfig": {
-    "healthDrain": 3
+    "healthDrain": 3,
+    "pitchRange": [ 0.6, 1.0 ]
   }
 }
