@@ -1,17 +1,16 @@
 function init()
-	animator.setParticleEmitterActive("blood", true)
-	animator.playSound("agony", -1)
+  animator.setParticleEmitterActive("blood", true)
+  animator.playSound("agony", -1)
+
+  self.healthDrain = config.getParameter("healthDrain")
 end
 
 function update(dt)
-	if status.statusProperty("pat_noskin", 0) == 1 then
-		effect.expire()
-	end
-
-	status.overConsumeResource("health", 0.05)
+  animator.setParticleEmitterOffsetRegion("blood", mcontroller.boundBox())
+  
+  status.overConsumeResource("health", self.healthDrain * dt)
 end
 
 function uninit()
-	animator.setParticleEmitterActive("blood", false)
-	animator.stopAllSounds("agony")
+  animator.stopAllSounds("agony")
 end

@@ -1,0 +1,23 @@
+{
+  "kind": "pat_noskin_blood",
+  "definition": {
+    "type": "ember",
+    "layer": "middle",
+    "size": 1,
+    "color": [ 150, 0, 0 ],
+    "initialVelocity": [ 0, 0.5 ],
+    "finalVelocity": [ 0, -25 ],
+    "approach": [ 4, 16 ],
+    "timeToLive": 2,
+    "destructionTime": 2,
+    "destructionAction": "shrink",
+    "collidesForeground": true,
+    "variance": {
+      "size": 0.5,
+      "initialVelocity": [ 1.5, 1.5 ],
+      "timeToLive": 1,
+      "rotation": 180,
+      "angularVelocity": 360
+    }
+  }
+}

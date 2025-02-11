@@ -1,12 +1,10 @@
 {
-  "name" : "pat_noskin",
-  "effectConfig" : {},
-  "defaultDuration" : 0,
-
-  "scripts" : [
-    "noskin.lua"
-  ],
-  "scriptDelta" : 1,
-
-  "animationConfig" : "noskin.animation"
+  "name": "pat_noskin",
+  "defaultDuration": 0,
+  "animationConfig": "noskin.animation",
+  "scripts": [ "noskin.lua" ],
+  "scriptDelta": 1,
+  "effectConfig": {
+    "healthDrain": 3
+  }
 }
